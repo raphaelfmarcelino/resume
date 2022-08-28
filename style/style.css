@@ -1,0 +1,156 @@
+* {
+    font-family: 'Raleway', sans-serif;;
+}
+
+body {
+    background-color: rgba(211, 211, 211, 0.521);
+}
+
+header {
+    text-align: right;
+}
+  
+header > a, img {
+    width: 30px;
+    border-radius: 20%;
+    text-align:right;
+}
+.main-container {
+    width: 900px;
+    margin: 50px auto 0;
+}
+  
+.profile {
+    background-color: white;
+    width: 830px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 20px 5px 30px 5px;
+    /*padding-bottom: 30px;*/
+    border-radius: 15px;
+}
+
+.foto-principal {
+    width: 200px;
+    border: 2px solid #FFFFFF; /* shorthand */
+    border-radius: 50%;
+    margin: 30px 30px 0 30px;
+    box-shadow: 0px 0px 10px #959595;
+}
+
+.social-links {
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    letter-spacing: -1px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 40px;
+}
+  
+h2 {
+    margin-top: 0;
+    font-style: italic;
+    color: rgb(73 73 73);
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+
+p {
+    line-height: 25px;
+    margin-top: 0;
+}
+
+.bloco1 {
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 8px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #959595;
+    width: 800px;
+    margin: auto;
+}
+
+.profile {
+    box-shadow: 2px 2px 5px #959595;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.intro {
+    text-align: justify;
+    text-indent: 2.5em;
+}
+
+.container-2 {
+    width: 800px;
+    margin: auto;
+    /*margin-left: 30px;
+    margin-right: 0px;*/
+}
+
+.educacao {
+    display: inline-block;
+    background-color: #FFFFFF;
+    width: 386px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 23px 23px 0 30px;
+    box-shadow: 2px 2px 5px #959595;
+}
+
+.idiomas {
+    display: inline-block;
+    background-color: #FFFFFF;
+    width: 386px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 23px 0 0 0;
+    box-shadow: 2px 2px 5px #959595;
+}
+
+.edu {
+    text-align: center;
+}
+
+.id{
+    text-align: center;
+}
+
+.container-profi {
+    background-color: #FFFFFF;
+    width: 800px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #959595;
+    margin: auto;
+    margin-top: 23px;
+    padding: 20px;
+}
+
+.jobs-list {
+    list-style: none;
+    padding-left: 20px;
+  }
+
+.cursos {
+    background-color: #FFFFFF;
+    width: 800px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #959595;
+    margin: auto;
+    margin-top: 25px;
+    padding: 20px;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
