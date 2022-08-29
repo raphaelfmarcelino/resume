@@ -4,10 +4,12 @@
 
 body {
     background-color: rgba(211, 211, 211, 0.521);
+    margin: 0;
 }
 
 header {
     text-align: right;
+    padding: 15px 15px 0 0;
 }
   
 header > a, img {
@@ -59,6 +61,18 @@ h2 {
     font-weight: 100;
     letter-spacing: -1px;
 }
+
+h4 {
+    margin-bottom: 5px;
+  }
+  
+  h5 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 0.9em;
+  }
 
 p {
     line-height: 25px;
@@ -135,7 +149,11 @@ p {
 .jobs-list {
     list-style: none;
     padding-left: 20px;
-  }
+}
+
+.jobs {
+    text-align: justify;
+}
 
 .cursos {
     background-color: #FFFFFF;
@@ -145,6 +163,10 @@ p {
     margin: auto;
     margin-top: 25px;
     padding: 20px;
+}
+
+.itens-cursos {
+    line-height: 25px;
 }
 
 footer {
