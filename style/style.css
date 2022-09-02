@@ -4,7 +4,9 @@
 
 body {
     /*background-color: rgba(211, 211, 211, 0.521);*/
-    background-image: linear-gradient(to bottom, #00004c , rgb(0, 0, 0));
+    /*background-image: linear-gradient(to bottom, #00004c , rgb(0, 0, 0));*/
+    background-image: linear-gradient(to bottom, #4887a7 , rgb(0, 0, 0));
+    /*azul malibu: #38b6ff*/
     margin: 0;
 }
 
